@@ -1,16 +1,15 @@
 {
   "homepage": "https://degentsai.github.io/snappy",
-  "name": "DP_Market",
+  "name": "Snappy",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "build": "next build && cp -r out/404.html out/index.html || true",
+    "deploy": "gh-pages -d out -m \"Deploy Next.js app to GitHub Pages\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
