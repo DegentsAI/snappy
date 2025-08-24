@@ -6,9 +6,7 @@ const HelpCenterInner = () => {
     <div className="creator-details-area pd-top-120" id="faq">
       <div className="container">
         <div className="text-center mg-bottom-20">
-          <h3>
-            FAQs
-          </h3>
+          <h3>FAQs</h3>
         </div>
         <div className="row">
           <div
@@ -27,7 +25,7 @@ const HelpCenterInner = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    What Is A Non Fin Bun Ticket
+                    What even is Snappy? Is it magic?
                     <i className="fa fa-angle-down down-arrow" />
                   </button>
                 </h2>
@@ -38,9 +36,10 @@ const HelpCenterInner = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    NFT Reality Free item's accordion body. the Lorem ipsum
-                    dolor sit amet, elit. Eligendi expedita molestias ab ut ea
-                    vitae eum ipsa velit does limit overflow.
+                    Snappy is your new AI bestie. It's a next-gen AI sticker
+                    generator that turns your text prompts into fire stickers in
+                    seconds. It’s not magic, but it's pretty close. Think of it
+                    as a vibe check for your keyboard.
                   </div>
                 </div>
               </div>
@@ -54,7 +53,7 @@ const HelpCenterInner = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Where I check Bun Ticket
+                    Is it really free to use? No cap?
                     <i className="fa fa-angle-down down-arrow" />
                   </button>
                 </h2>
@@ -65,9 +64,10 @@ const HelpCenterInner = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    NFT Reality Free item's accordion body. the Lorem ipsum
-                    dolor sit amet, elit. Eligendi expedita molestias ab ut ea
-                    vitae eum ipsa velit does limit overflow.
+                    For real, for real. You can create a bunch of stickers for
+                    free to get a feel for the magic. We've got bigger plans for
+                    the future, but for now, you can flex your creative muscle
+                    without dropping a single coin.
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const HelpCenterInner = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Kind Of NFT Marketplace
+                    What if my prompt is wild? Can Snappy handle it?
                     <i className="fa fa-angle-down down-arrow" />
                   </button>
                 </h2>
@@ -92,9 +92,10 @@ const HelpCenterInner = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    NFT Reality Free item's accordion body. the Lorem ipsum
-                    dolor sit amet, elit. Eligendi expedita molestias ab ut ea
-                    vitae eum ipsa velit does limit overflow.
+                    We love a good challenge! Whether you want "a squirrel DJing
+                    at a rave" or "a sad potato wearing a tiny crown," Snappy's
+                    AI is built to turn your weirdest, most niche ideas into
+                    something lit. Just be creative—we'll handle the rest.
                   </div>
                 </div>
               </div>
@@ -108,7 +109,8 @@ const HelpCenterInner = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    Exclusive Payment Constrac &amp; Wallet
+                    Can I use these stickers everywhere, like on WhatsApp,
+                    Discord, or my brand stuff?
                     <i className="fa fa-angle-down down-arrow" />
                   </button>
                 </h2>
@@ -119,9 +121,41 @@ const HelpCenterInner = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    NFT Reality Free item's accordion body. the Lorem ipsum
-                    dolor sit amet, elit. Eligendi expedita molestias ab ut ea
-                    vitae eum ipsa velit does limit overflow.
+                    Yesss! Once you download your stickers, they're yours to
+                    own. You can slap them on your chats, use them in your
+                    server, or even on your projects. They come with a
+                    transparent background (PNG), so they're ready to go
+                    wherever you are.
+                  </div>
+                </div>
+              </div>
+              <div className="ticket-accordion accordion-items">
+                <h2 className="accordion-headers" id="headingFour">
+                  <button
+                    className="accordion-buttons collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    I generated a sticker, but it's not quite the vibe I wanted.
+                    What gives?
+                    <i className="fa fa-angle-down down-arrow" />
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    No worries, that happens! Our AI is learning, but sometimes
+                    it needs a little nudge. Try tweaking your prompt—add more
+                    details, specify a style, or change a word. You can also
+                    generate again to get a fresh batch of options. Keep trying,
+                    you'll get that perfect sticker.
                   </div>
                 </div>
               </div>

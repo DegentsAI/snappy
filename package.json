@@ -5,9 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp -r out/404.html out/index.html || true",
-    "deploy": "gh-pages -d out -m \"Deploy Next.js app to GitHub Pages\"",
-    "predeploy": "npm run build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
